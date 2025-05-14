@@ -70,7 +70,7 @@ export default function Services() {
             <div>
               <h2 className="text-3xl font-cormorant font-bold mb-6 text-brand-black">Renovations and Conversion Management</h2>
               <p className="text-brand-black font-montserrat mb-6">
-                Transform your hospitality property with our comprehensive renovations and conversion management services. Whether you're upgrading existing facilities or converting spaces for new purposes, our team manages every aspect from planning to execution. We collaborate closely with contractors and designers to ensure projects are completed on time, within budget, and to the highest standards of quality.
+                Transform your hospitality property with our comprehensive renovations and conversion management services. Whether you&apos;re upgrading existing facilities or converting spaces for new purposes, our team manages every aspect from planning to execution. We collaborate closely with contractors and designers to ensure projects are completed on time, within budget, and to the highest standards of quality.
               </p>
               <Link href="/contact" className="inline-block bg-brand-gold text-white py-2 px-4 rounded-md font-montserrat font-semibold hover:bg-brand-black hover:text-brand-gold transition-colors">
                 Learn More
