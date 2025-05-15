@@ -19,6 +19,10 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Passat Hospitality",
   description: "Your trusted partner in hospitality staffing solutions",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${cormorantGaramond.variable} ${montserrat.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="bg-brand-cream text-brand-black font-sans">
         <div className="flex flex-col min-h-screen">
           <nav className="bg-brand-cream">

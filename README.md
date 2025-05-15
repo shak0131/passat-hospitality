@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Passat Hospitality Website
 
-## Getting Started
+This is the official website for Passat Hospitality Inc., a hospitality consulting business that assists new hoteliers entering the hospitality space.
 
-First, run the development server:
+## Overview
 
+The Passat Hospitality website is built with Next.js, React, and Tailwind CSS. It features a responsive design with a consistent cream background that matches the company's branding.
+
+## Features
+
+- Responsive design optimized for all device sizes
+- Custom typography using Cormorant Garamond for headings and Montserrat for body text
+- Consistent branding and theme throughout the site
+- Multiple pages including Home, About Us, Services, Clients, and Contact
+- Contact form for client inquiries
+
+## Development
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Local Development
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This site is deployed on AWS Amplify at [passathospitality.com](https://passathospitality.com).
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `/public` - Static assets including images and favicon
+- `/src/app` - Next.js 13+ App Router structure
+  - `/page.tsx` - Home page
+  - `/about/page.tsx` - About page
+  - `/services/page.tsx` - Services page
+  - `/clients/page.tsx` - Clients page
+  - `/contact/page.tsx` - Contact page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For questions about the website, please contact the developers.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For business inquiries, please contact:
+- Email: atul1066@gmail.com 
+- Phone: (416) 312-8902
